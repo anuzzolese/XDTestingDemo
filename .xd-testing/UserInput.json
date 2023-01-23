@@ -3,7 +3,21 @@
     {
       "name": "MyFragment",
       "ontologyName": "MusicalOntology",
-      "fileName": "MusicalOntology/MyFragment/mp.owl"
+      "fileName": "MusicalOntology/MyFragment/mp.owl",
+      "tests": [
+        {
+          "type": "COMPETENCY_QUESTION",
+          "content": "When was a musical performance recorded?",
+          "reasoner": "hermiT 1.4.3.456",
+          "status": "running",
+          "query": "PREFIX mp: <https://w3id.org/polifonia/ontology/musical-performance/> PREFIX core: <https://w3id.org/polifonia/ontology/core/> SELECT DISTINCT ?time WHERE { ?composition mp:isInvolvedInMusicalPerformance ?performance . ?performance core:hasTimeInterval ?time }",
+          "data": "",
+          "dataFileName": "MusicalOntology/MyFragment/datasets/DatasetCQ.ttl",
+          "expectedResults": "",
+          "expectedResultsFileName": "MusicalOntology/MyFragment/expectedResults/CQ-ExpectedResults.json",
+          "id": "CQ001"
+        }
+      ]
     }
   ],
   "ontologies": [
