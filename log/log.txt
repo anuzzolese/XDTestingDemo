@@ -6,3 +6,7 @@ ERROR 2023-01-23 11:37:59,379 [main] (ErrorHandlerFactory.java:106) - [line: 2, 
  INFO 2023-01-23 11:41:45,134 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/anuzzolese/XDTestingDemo/main/XDTesting/MusicalOntology/MyFragment/CompetencyQuestionVerificationTest/CQTestCase/CQ001.ttl
  INFO 2023-01-23 11:43:41,938 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/anuzzolese/XDTestingDemo/main/XDTesting/MusicalOntology/MyFragment/InferenceVerificationTest/IVTestCase/IV001.ttl
  INFO 2023-01-23 11:43:46,200 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/anuzzolese/XDTestingDemo/main/XDTesting/MusicalOntology/MyFragment/InferenceVerificationTest/IVTestCase/IV001.ttl
+ INFO 2023-01-23 11:46:05,945 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/anuzzolese/XDTestingDemo/main/XDTesting/MusicalOntology/MyFragment/InferenceVerificationTest/IVTestCase/IV001.ttl
+ERROR 2023-01-23 11:46:06,961 [main] (ErrorHandlerFactory.java:106) - [line: 8, col: 1 ] Broken token (newline): PREFIX mp: <https://w3id.org/polifonia/ontology/musical-performance/> 
+ INFO 2023-01-23 11:46:07,139 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/anuzzolese/XDTestingDemo/main/XDTesting/MusicalOntology/MyFragment/InferenceVerificationTest/IVTestCase/IV001.ttl
+ERROR 2023-01-23 11:46:07,940 [main] (ErrorHandlerFactory.java:106) - [line: 8, col: 1 ] Broken token (newline): PREFIX mp: <https://w3id.org/polifonia/ontology/musical-performance/> 
