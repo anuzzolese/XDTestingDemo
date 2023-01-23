@@ -5,5 +5,12 @@
       "name": "Musical Performance",
       "userDefined": true
     }
+  ],
+  "fragments": [
+    {
+      "name": "Andrea's Fragment",
+      "ontologyName": "Musical Performance",
+      "fileName": "Musical Performance/Andrea's Fragment/mp.owl"
+    }
   ]
 }
